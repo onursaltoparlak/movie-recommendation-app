@@ -271,7 +271,7 @@ def recommendation_system_page():
     </div>
 """, unsafe_allow_html=True)
     
-    set_background("C:/Users/Onursal Toparlak/Desktop/Tüm Dosyalar\Taslaklar/movie_recommendation/netflix-fotor-2024042313533.jpg")
+    set_background("C:/Users/Onursal Toparlak/Desktop/Tüm Dosyalar/Taslaklar/movie_recommendation/netflix-fotor-2024042313533.jpg")
 
     def get_suggested_movies_with_posters(emotion):
         suggested_movies = get_suggested_movies(emotion)
